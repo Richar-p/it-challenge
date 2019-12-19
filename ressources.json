@@ -1,11 +1,29 @@
 {
   "catégorie": {
-    "admin-sys": {
+    "web front-end": {
       "technos": [
-        "Lorem ipsum"
+        "Angular",
+        "Angular JS",
+        "CreateJS",
+        "Ember.JS",
+        "HTML CSS JS",
+        "jQuery",
+        "Meteor JS",
+        "ReactJS", 
+        "React Native",
+        "Vue.JS"
       ],
       "projet": [
-        "Lorem ipsum"
+        "Afficher un cybertruck, SANS GIF NI IMAGES",
+        "Afficher un objet avec des animations, SANS GIF",
+        "Créer une animation de neige/pluie qui tombe",
+        "Créer un chronomètre",
+        "Créer un clicker game",
+        "Créer un pokedex",
+        "Faire un calendrier responsive",
+        "Faire une interface web inspiré d'un environnement de bureau",
+        "Faire une interface web inspiré d'un environnement téléphone",
+        "Recoder l'interface d'un site web populaire au choix (Netflix, Facebook, Twitter...)"
       ]
     }
   }
