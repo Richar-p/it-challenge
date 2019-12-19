@@ -1,3 +1,4 @@
+var ressources = 
 {
   "catégorie": {
     "web front-end": {
@@ -25,7 +26,7 @@
         "Faire une interface web inspiré d'un environnement téléphone",
         "Recoder l'interface d'un site web populaire au choix (Netflix, Facebook, Twitter...)"
       ]
-    }
+    },
     "web back-end": {
       "technos": [
         "Laravel",
@@ -54,3 +55,18 @@
     }
   }
 }
+
+jQuery(document).ready(function($) {
+    for (var p in ressources['catégorie']) {
+        $('#select').append("<option value=\""+ p + "\">" + p + "</option>")
+    }              
+
+    $( "button" ).click(function() {
+        document.getElementById("result").innerHTML = ''
+        document.getElementById("title-result").style.display = 'block'
+        var challenge = ressources["catégorie"][ document.getElementById("select").value ]["projet"][Math.floor(Math.random()*ressources["catégorie"][document.getElementById("select").value]["projet"].length)]
+        var tech = ressources["catégorie"][document.getElementById("select").value]["technos"][Math.floor(Math.random()*ressources["catégorie"][document.getElementById("select").value]["technos"].length)]
+
+        $('#result').append(challenge + " en " + tech)
+    });
+});

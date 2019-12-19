@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Courier Prime', monospace;
+}
+
+body {
+	text-align: center;
+	margin-top: 5%;
+}
+
+button {
+	padding: 5px;
+}
+
+#title-result {
+	margin-top: 50px;
+	display: none;
+}
+
+#search-bar {
+	margin-bottom: 20px;
+}
+
+#search-bar select {
+	padding: 5px;
+}
