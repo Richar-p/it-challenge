@@ -43,14 +43,13 @@ var ressources =
       "projet": [
         "Créer une API d'envoi de mail",
         "Coder une librarie pour les back-end",
-        "Créer une API de validation de format d'input (Numéro de téléphone, adresse, date...)",
+        "Créer un service de validation de format d'input (Numéro de téléphone, adresse, date...)",
         "Coder une API permettant de vérifier et de scaler l'état un serveur",
         "Coder un réseau social",
         "Coder un système de messagerie",
         "Créer une API pour scoper l'une des table de OpenDataSoft",
         "Créer un hebergeur d'image",
-        "Coder un chatbot Discord à l'aide des webhooks",
-        "Coder un trombinoscope automatique grâce au données Slack/Discord"
+        "Coder un trombinoscope automatique grâce au données de messagerie d'entreprise (Slack/Rocket.Chat)"
       ]
     }
   }
